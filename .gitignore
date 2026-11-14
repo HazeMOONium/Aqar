@@ -1,3 +1,8 @@
-/.env
-/__pycache__
-/dump.sql
+# Secrets / credentials - never commit
+.env
+.streamlit/secrets.toml
+
+__pycache__/
+*.pyc
+.venv/
+venv/
